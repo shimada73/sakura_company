@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="shift_jis">
+		<meta http-equiv="content-style-type" content="text/css">
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<title>勤怠管理フォーム</title>
+	</head>
+	
+	<script type="text/javascript" src="./mail_input.js"></script>
+	
+	<body>
+		<div id="body">
+			<h2>勤怠管理フォーム</h2>
+			<ol>
+			</ol>
+			<form name="mail_form" action="./postmail.cgi" method="post">
+			<input type="hidden" name="need" value="name ●責任者名 ・期間（始）" />
+			<div id="form-tbl">
+			<table summary="勤怠管理フォーム" id="form">
+			<tr>
+			<th>●氏名</th>
+				<td>
+					<select name="name" size="1" onChange="mail_set()">
+						<option></option>
+						<option>あ．安孫子　弘</option>
+						<option>あ．荒木　泰孝</option>
+						<option>い．入澤　乙之</option>
+						<option>う．薄田　直樹</option>
+						<option>お．翁　道茂</option>
+						<option>お．小川　慈恵富</option>
+						<option>く．桑村　時生</option>
+						<option>ご．ゴン　セイ</option>
+						<option>さ．齋官　潤</option>
+						<option>さ．佐藤　光樹</option>
+						<option>し．清水　敏昭</option>
+						<option>じ．ジニアス　ＡＳＭ</option>
+						<option>せ．瀬戸山　かおり</option>
+						<option>た．立花　勇樹</option>
+						<option>と．當間　康之</option>
+						<option>な．中野　翔太</option>
+						<option>な．中野　光教</option>
+						<option>ひ．廣瀬　尭栄</option>
+						<option>や．山口　貴夫</option>
+						<option>や．山崎　真利</option>
+						<option>よ．姚　建凡</option>
+						<option>＜名前が無い場合＞</option>
+					</select>
+				</td>
+			</tr><tr>
+			
+			<tr>
+			<th>●メールアドレス</th>
+				<td>
+					<input type="text" name="email" placeholder="メールアドレス" value=""><br>
+					※氏名選択時に自動で入力されます。<br>
+					　上記以外に送信する際は手動入力。
+				</td>
+			</tr><tr>
+			
+			<th>●責任者名</th>
+				<td>
+					<input type="text" name="●責任者名" placeholder="責任者名" value=""><br>
+					※客先勤務の方・・・現場管理者の名前<br>
+					※社内勤務の方・・・上長の名前<br>
+				</td>
+			</tr><tr>
+			
+			<th>●届出事由</th>
+				<td>
+					<select name="●届出事由" size="1">
+						<option>有給休暇(全休)</option>
+						<option>有給休暇(前半休)</option>
+						<option>有給休暇(後半休)</option>
+						<option>休日出勤</option>
+						<option>代休</option>
+						<option>慶弔、出産による休暇</option>
+						<option>欠勤</option>
+						<option>その他</option>
+					</select><br>
+					<textarea name="●備考" placeholder="備考欄。上記が「欠勤」又は「その他」時は必須。" rows="3" cols="25"></textarea>
+				</td>
+			</tr><tr>
+			
+			<th>●期間</th>
+				<td>
+					(始)<input type="date" name="・期間（始）"> <br>
+					(終)<input type="date" name="・期間（終）"> <br>
+					※１日の場合は(終)は入力しない
+				</td>
+			</tr>
+			
+			</table>
+			<p class="btn">
+				<input type="submit" value="送信する">
+				<input type="reset" value="リセット">
+			</p>
+			</form>
+			</div>
+		</div>
+	</body>
+</html>

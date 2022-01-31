@@ -1,0 +1,258 @@
+body {
+  margin-right: auto;
+  margin-left : auto;
+  width:100%;
+}
+
+header {
+  background-color: #2F8CBB;
+
+}
+
+header .company-info {
+  padding: 10px;
+
+}
+
+.logo-company{
+  color:#FFFFFF;
+}
+
+header .company-name {
+  font-size: small;
+  float: left;
+  color: #FFFFFF;
+  padding: 10px;
+}
+
+header .company-name a {
+  color: #FFFFFF;
+}
+
+header .company-detail {
+  font-size: small;
+  float: right;
+  color: #FFFFFF;
+  padding: 10px;
+  width: 150px;
+  margin-right: 5%;
+  border:solid 1px #FFF;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+header .company-detail a {
+  color: #FFFFFF;
+}
+
+header .images{
+  width: 50%;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  margin-left: 10%;
+  float: left;
+}
+
+header .logo {
+  max-width: 10%;
+  height: auto;
+}
+
+header .logo-title {
+  max-width: 60%;
+  height: auto;
+}
+
+
+header .contact {
+  float: right;
+  width: 40%;
+  margin-top: 3%;
+}
+
+header input {
+  padding: 10px;
+  margin: 2%;
+  width: 80%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border:solid 1px #ccc;
+  font-size: small;
+}
+
+header textarea {
+  width: 80%;
+  margin: 2%;
+  padding: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border:solid 1px #2F8CBB;
+  font-size: small;
+}
+
+.container-fluid {
+  margin: 0px;
+  width: 100%;
+  padding: 0px;
+}
+
+.col-sm-12{
+  padding: 0px;
+  margin: 0px;
+}
+
+.row{
+  margin: 0px;
+  padding-left: -100;
+}
+
+
+.abouts {/*親div*/
+  background-color: #f8dce0;
+  background-image: url("../img/abouts.png");
+  text-align: center;
+  background-size:cover;
+}
+
+.abouts-mask{
+  background: rgba(255,255,255,0.5);
+  padding: 30px;
+}
+
+
+.abouts .abouts-title {
+  padding: 30px;
+  color: #000000;/*文字は白に*/
+  font-size: xx-large;
+}
+
+.abouts .abouts-details {
+  padding: 20px;
+  color: #000000;/*文字は白に*/
+  font-size: x-large;
+}
+
+.abouts .abouts-midashi {
+  color: #000000;/*文字は白に*/
+  font-size: x-large;
+  background:linear-gradient(transparent 60%, #ffff66 60%);
+
+}
+
+.apply-connect {
+  text-align: center;
+  padding: 30px;
+  /*font-size: xx-large;*/
+  background-color: #F8F8F8;
+}
+
+.apply-connect-title {
+  font-size: x-large;
+}
+
+.apply-connect-strong {
+
+  background:linear-gradient(transparent 60%, #ffff66 60%);
+  font-size: x-large;
+}
+
+.apply-connect-image {
+  max-width: 100%;
+}
+
+.apply-used-title{
+  padding: 30px;
+  font-size: x-large;
+  text-align: center;;
+
+}
+
+.apply-used {
+  background-color: #F8F8F8;
+  padding-bottom: 30px;
+}
+
+.apply-used-area {
+  text-align: center;
+  background-color: #FFFFFF;
+  padding: 20px;
+}
+
+.apply-used-sub{
+  padding-top: 30px;
+}
+
+.apply-used-detail{
+  font-size: small;
+  padding: 5px;
+}
+
+.apply-plan{
+  background-color: #1791BD;
+  text-align: center;
+}
+
+.apply-plan-title {
+  font-size: x-large;
+  color: #FFFFFF;
+  padding: 30px;
+}
+
+.table{
+  color: #FFFFFF;
+  width: 100%;
+  table-layout: fixed;
+  word-break: break-all;
+  word-wrap: break-all;
+}
+
+td {
+  color: #FFFFFF;
+  font-size: x-small;
+}
+
+th {
+  color: #F5FF00;
+
+}
+
+footer {
+  background-color: #000000;
+  padding: 30px;
+  text-align: center;
+  color:#FFFFFF;
+}
+
+
+.apply-buy {
+  text-align: center;
+  padding: 50px;
+}
+
+#regist2 {
+  font-size: large;
+  padding-top: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  color: #FFFFFF;
+
+}
+
+#regist {
+  font-size: large;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  background-color: #2C84B1;
+  border:solid 1px #ccc;
+
+}
+
+.btn btn-primary{
+  background-color:  #122B6E;
+}

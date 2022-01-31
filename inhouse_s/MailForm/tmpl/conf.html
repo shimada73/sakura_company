@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+<meta charset="shift_jis">
+<meta http-equiv="content-style-type" content="text/css">
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<title>勤怠管理フォーム : 確認画面</title>
+</head>
+<body>
+
+<div id="body">
+<h2>勤怠管理フォーム &gt; 確認画面</h2>
+<ul>
+<li>以下の内容でよろしければ「送信する」ボタンを押して下さい。</li>
+</ul>
+<div id="form-tbl">
+<table id="form">
+<!-- cell_begin -->
+<tr>
+  <th>!key!</th>
+  <td>!val!</td>
+</tr>
+<!-- cell_end -->
+</table>
+<form action="!mail_cgi!" method="post">
+<!-- hidden -->
+<p class="btn">
+	<input type="button" value="&lt; 前に戻る" onclick="history.back()">
+	<input type="submit" value="送信する &gt;">
+</p>
+</form>
+</div>
+</div>
+</body>
+</html>

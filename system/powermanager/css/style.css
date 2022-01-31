@@ -1,0 +1,247 @@
+body{
+  		font-family: "Quicksand","游ゴシック体","Yu Gothic",YuGothic,"ヒラギノ角ゴシック Pro","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+
+}
+
+.container{
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+  padding: 0px;
+}
+.row{
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+
+.col-md-3.middle{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.col-md-2.middle{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.small-chara{
+  font-size:9px;
+}
+
+.main-image{
+  position: relative;
+}
+
+.main-image p {
+  position: absolute;
+  color: #FFFFFF;
+  top: 40%;
+  left: 10%;
+  font-size: 250%;
+  opacity: 0.8;
+  letter-spacing: 0.2em;
+}
+
+
+.main-image button {
+  font-size: 150%;
+  position: absolute;
+  color: #FFFFFF;
+  top: 70%;
+  left: 10%;
+  opacity: 0.8;
+}
+
+
+.row.abouts{
+  margin-top: 50px;
+}
+
+.row.abouts h2{
+  margin: 40px;
+  letter-spacing: 0.03em;
+}
+
+.row.abouts h3{
+  letter-spacing: 0.08em;
+  font-weight: 100;
+
+}
+
+
+.row.introduce{
+  margin-top: 50px;
+}
+
+.row.introduce h2{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.space-box h2{
+  font-weight: normal;
+  font-size: 120%;
+  text-align:center;
+  margin: 60px;
+  letter-spacing: 0.2em;
+  color: #00687C;
+}
+
+
+.space-box h3{
+  font-weight: normal;
+  font-size: 100%;
+  text-align:center;
+  margin: 40px;
+  letter-spacing: 0.2em;
+  color: inherit;
+  text-align: left;
+  color: #333333;
+  line-height: 2em;
+  height: 150px;
+}
+
+.col-md-4.left{
+  background-color: #EEEEEE;
+  padding: 30px;
+}
+
+.col-md-4.center{
+  background-color: #FFFFFF;
+  padding: 30px;
+}
+
+.col-md-4.right{
+  background-color: #EEEEEE;
+  padding: 30px;
+}
+
+
+.row.screen-image{
+  margin-top: 50px;
+}
+
+.row.screen-image{
+  margin-top: 50px;
+}
+
+.row.screen-image h2{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.col-md-6{
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 10px;
+  position: relative;
+}
+
+
+.col-md-6 p {
+  position: absolute;
+  top: -12%;
+  left: 0%;
+  font-size: 110%;
+  font-weight: 100;
+  opacity: 1.0;
+  letter-spacing: 0.2em;
+  padding: 10px;
+  margin: 10px;
+
+  border-bottom: solid 5px pink;
+}
+
+
+.trial-button button {
+  font-size: 150%;
+  margin: 50px;
+  padding: 10px
+}
+
+
+.row.trial h2{
+  margin: 40px;
+  letter-spacing: 0.03em;
+}
+
+.row.trial h3{
+  letter-spacing: 0.08em;
+  font-weight: 100;
+  text-align: left;
+
+}
+
+.row .flow{
+
+}
+
+
+.row.flow h2{
+  margin: 40px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.row.flow h3{
+  letter-spacing: 0.03em;
+}
+
+.step{
+  background-color: #00687C;
+  text-align: center;;
+  padding: 10px;
+  color: #FFFFFF;
+  margin: 50px;
+
+}
+
+.title{
+
+  font-size: 120%;
+  text-align: center;
+  margin: 30px;
+
+}
+
+.comment{
+  margin: 30px;
+  letter-spacing: 0.03em;
+}
+
+.row .flow h2{
+  margin-bottom: 30px;
+}
+
+.row.support{
+  padding: 10%;
+}
+
+.row.support h2{
+  margin: 40px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.footer{
+  margin-top: 100px;
+  text-align: center;
+  background-color: #00687C;
+  color: #FFFFFF;
+  padding: 20px;
+}
+
+.btn.btn-primary{
+  background-color:  #00687C;
+
+}
+
+li{
+  margin: 20px;
+  padding: 10px;
+  font-size:150%;
+  border-bottom: solid 5px pink;
+}

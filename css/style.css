@@ -1,0 +1,563 @@
+/* スマホ・iPad
+--------------------------------------------------*/
+.slogan{
+  text-align: center;
+  position:fixed;
+  margin:auto;
+  top:50%;
+  right:0;
+  bottom:0;
+  left:0;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.translation {
+  font-size: 14px;
+}
+
+@media (min-width: 320px){
+  .slogan {
+    text-align: center;
+    position:fixed;
+    margin:auto;
+    top:50%;
+    right:0;
+    bottom:0;
+    left:0;
+    font-weight:bold;
+    font-size:14px;
+  }
+
+  .translation {
+    font-size: 12px;
+  }
+
+}
+
+@media (min-width: 412px){
+  .slogan {
+  	text-align: center;
+  	position:fixed;
+  	margin:auto;
+  	top:50%;
+  	right:0;
+  	bottom:0;
+  	left:0;
+  	font-weight:bold;
+  	font-size:18px;
+  }
+
+  .translation {
+    font-size: 16px;
+  }
+
+}
+
+@media (min-width: 600px){
+  .slogan {
+    text-align: center;
+    position:fixed;
+    margin:auto;
+    top:50%;
+    right:0;
+    bottom:0;
+    left:0;
+    font-weight:bold;
+    font-size:26px;
+  }
+
+  .translation {
+    font-size: 24px;
+  }
+
+}
+
+/* PC/ノートパソコン
+--------------------------------------------------*/
+@media (min-width: 768px){
+  .slogan {
+    text-align: center;
+    position:fixed;
+    margin:auto;
+    top:50%;
+    right:0;
+    bottom:0;
+    left:0;
+    font-weight:bold;
+    font-size:50px;
+  }
+
+  .translation {
+    font-size: 32px;
+  }
+
+}
+
+/* iPad
+--------------------------------------------------*/
+@media (min-width: 768px) and (min-height: 1024px){
+  .slogan {
+    text-align: center;
+    position:fixed;
+    margin:auto;
+    top:50%;
+    right:0;
+    bottom:0;
+    left:0;
+    font-weight:bold;
+    font-size:32px;
+  }
+
+  .translation {
+    font-size: 30px;
+  }
+
+}
+
+
+
+
+.top {
+	width: 100%;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+	background: url(../img/top.jpg) no-repeat center center fixed; 
+	background-color: black;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+  background-size: cover;
+}
+
+
+/*==================================================
+# TOP
+==================================================*/
+.top-information {
+  background: #000;
+  z-index: 1;
+}
+.section {
+  padding: 80px 40px;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.section::before {
+  background: #e7e7e7;
+  display: block;
+  height: 1px;
+  width: 80px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+.section_heading {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 40px;
+  position: relative;
+  text-align: center;
+}
+.section_heading span {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 4px;
+  margin-top: .5em;
+}
+
+.contents {
+	font-size: 12px;
+	margin-top: 2.5em;
+  text-align: center;
+}
+
+
+
+/*==================================================
+# COMPANY
+==================================================*/
+.page-company .page-content_header {
+  background: url(../img/company.jpg) no-repeat center; 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.president-img{
+  width: 179.25px;
+}
+
+.philosophy-content {
+  //padding: 15px 16px 50px 16px;
+  padding: 15px 150px 50px 150px;
+  font-size: 20px;
+}
+@media screen and (max-width:960px){
+.philosophy-content {
+  padding: 15px 16px 50px 16px;
+  font-size: 20px;
+}
+}
+
+.philosophy-content .sen2 {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.philosophy-content .sen3 {
+  float: right;
+}
+
+address, .schedule {
+  font-size: 11px;
+  background-color: #000000;
+  padding: 10px;
+  text-align: center;
+}
+
+.services_content {
+  font-size: 11px;
+  background-color: #000000;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+
+.alliance_content {
+  font-size: 11px;
+  background-color: #ffffff;
+  padding: 10px;
+  margin-bottom: 25px;
+  border: 1px solid;
+  border-color: #000000;
+  color: #000000;
+}
+
+.alliance_content .a{
+  font-size: 11px;
+  color:#000000;
+  border: 0px solid;
+}
+
+.route-info {
+  text-align: left;
+}
+
+.access_img img {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (max-width: 991px){
+  #mob-img {
+    margin-top: 10px;
+  }
+}
+
+.grow {
+  transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
+}
+
+.sub_translation {
+  font-size: 10px;
+}
+
+/*==================================================
+# TAB MENU
+==================================================*/
+.nav-tabs {
+  border-bottom: 0px;
+}
+
+.nav-tabs li.active a,
+.nav-tabs li.active a:focus,
+.nav-tabs li.active a:active>a:hover {
+  color:#fff;
+  background-color: #241007;
+  border: 0px;
+  border-bottom: 5px solid #fff;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover {
+    color: #fff;
+    cursor: default;
+    background-color: #241007;
+    border:0px;
+    border-bottom: 5px solid #fff;
+}
+
+.nav-tabs li a:hover {
+  color: #000;
+  border-radius: 0px;
+}
+
+.img-thumbnail {
+  background-color: transparent;
+  border: 0px;
+}
+
+/*==================================================
+# SERVICES
+==================================================*/
+.page-services .page-content_header {
+  background: url(../img/service.jpg) no-repeat center; 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.alliance_bg {
+  width: 100%; 
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.alliance_inbox {
+  padding: 1em;
+}
+
+/*==================================================
+# グラフ
+==================================================*/
+
+.chart{
+  width: 100%; 
+  min-height: 360px;
+  background-color: transparent;
+}
+
+.canvasjs-chart-credit {
+   display: none;
+}
+
+.canvasjs-chart-canvas {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.graph{
+  margin: -15px;
+}
+
+/*==================================================
+# RECRUITMENT
+==================================================*/
+.page-recruit .page-content_header {
+  background: url(../img/recruit.jpg) no-repeat center; 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.recruit-block {
+  margin-bottom: 20px;
+}
+
+/*==================================================
+# RECRUITMENT　FORM
+==================================================*/
+.row form label .req {
+  top: 5px;
+  float: right;
+}
+
+form span.req {
+  color: #fff;
+  font-size: 82%;
+  font-weight: normal;
+  margin-left: 5px;
+  padding: 2px;
+  display: inline-block;
+  line-height: 1;
+  background: #FC0F10;
+}
+
+fieldset legend .col-form-legend .col-sm-2{
+  color: #fff!important;
+}
+
+#recruitForm .form-content:nth-child(odd) {
+  padding-bottom: 15px;
+  background-color: #000;
+  padding-top: 15px;
+}
+
+#contactForm .form-content:nth-child(odd) {
+  padding-bottom: 15px;
+  background-color: #000;
+  padding-top: 15px;
+}
+
+/*==================================================
+# CONTACT US
+==================================================*/
+.page-contact .page-content_header {
+  background: url(../img/contact.jpg) no-repeat center; 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*==================================================
+# LINK
+==================================================*/
+.page-link .page-content_header {
+  background: linear-gradient(to right, #6A422E , #371A0A);; 
+}
+
+/*==================================================
+# フォームの入力エラー
+==================================================*/
+.has-error .form-control {
+  background-color: #FDECF7;
+  border:2px solid #DE5044;
+}
+
+.has-error .help-block{
+  color:red;
+  background-image: url(../img/warning_y.gif);
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 15px; 
+}
+
+/* CHECKBOX HELP TEXT */
+.desc-text {
+  font-size: 10px;
+  color: yellow;
+} 
+
+/* スマホ・iPadテーブルデザイン定義
+--------------------------------------------------*/
+@media screen and (max-width: 375px) {
+  .saku-table {
+    border: none;
+    width: 106%;
+    /* margin-right: -45px; */
+    margin-left: -11px;
+  }
+  .saku-table th {
+    font-weight: normal;
+  }
+  .saku-table td {
+    font-size: 10px;
+  }
+  
+  .saku-table-services td {
+    font-size: 10px;
+    padding: 12px 2px;
+  }
+  .saku-policy-table {
+    border: none;
+    width: 150%;
+    margin-right: -45px;
+    margin-left: -45px;
+  }
+  .history {
+    margin-left: -10px;
+  }
+  .history td {
+    font-size: 11px;
+    padding: 12px 9px;
+    width: 1%;
+  }
+
+  .recruit-block {
+    margin-left: -42px;
+    margin-right: -42px;
+  }
+
+  .page-sub_title-recruit {
+    margin-left: -10px;
+    margin-right: -5px;
+  }
+
+  .philosophy-content {
+    font-size: 11px;
+  }
+
+  span.wrap {
+    white-space:nowrap;
+  }
+
+
+}
+
+@media screen and (max-width: 414px) {
+  .philosophy-content {
+    font-size: 12px;
+  }
+}
+
+td.author {
+  text-align:right; 
+  padding: 12px 5px;
+  font-size: 10px;
+}
+
+/* スマホ・iPadテーブルデザイン定義
+--------------------------------------------------*/
+@media screen and (max-width: 320px) {
+  .navbar-brand .logo {
+    width: 235px;
+  }
+  .sakura-heading {
+    font-size: 34px;
+  }
+  
+  span.wrap {
+    white-space:nowrap;
+  }
+  
+  .history td {
+    font-size: 11px;
+    padding: 5px 5px;
+  }
+
+  .philosophy-content {
+    font-size: 10px;
+  }
+
+  .saku-policy-table {
+    border: none;
+    width: 200%;
+    margin-right: -70px;
+    margin-left: -70px;
+  }
+
+
+}
+
+div.g-recaptcha{
+  margin: 0 auto;
+  width: 304px;
+}
+
