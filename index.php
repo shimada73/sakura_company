@@ -62,8 +62,9 @@ $getTXT = file_get_contents($url, false, $context);
 $getRss = simplexml_load_string($getTXT);
  
 foreach ($getRss->channel->item as $item) {
+  $i == 0;
   $i++;
-  if ($i == 6) break;//何件まで表示するか
+  if ($i == 2) break;//何件まで表示するか
   $date = date("Y年 n月 j日", strtotime($item->pubDate));//投稿日
   $link = $item->link; //記事のリンク
   $title = $item->title; //記事のタイトル
@@ -83,7 +84,7 @@ foreach ($getRss->channel->item as $item) {
 
 				<nav class="global-nav" role="navigation">
 					<ul>
-						<li class="nav-border"><a href="work/wordpress/index.php"><p>制作実績</p><span>ACHIEVEMENT</span></a></li>
+						<li class="nav-border"><a href="/work/wordpress/"><p>制作実績</p><span>ACHIEVEMENT</span></a></li>
 						<li class="nav-border"><a href="company.html"><p>会社情報</p><span>COMPANY</span></a></li>
 			          	<li class="nav-border"><a href="services.html"><p>事業内容</p><span>SERVICES</span></a></li>
 			          	<li class="nav-border"><a href="recruit.html"><p>採用情報</p><span>RECRUITMENT</span></a></li>
@@ -100,7 +101,7 @@ foreach ($getRss->channel->item as $item) {
 	  		<main class="main">
 	  			<div class="top">
 	  				<div class="container">
-						<div class="achivement"><a href="work/wordpress/index.php"><img src="<?= $first_img ?>"><h2><?= $title ?></h2></a></div>
+						<div class="achivement"><a href="/work/wordpress/"><img src="<?= $first_img ?>"><h2><?= $title ?></h2></a></div>
 	  					<div class="row">
 	  						<div class="col-md-8 col-md-offset-2">
 		  						<h1 class="slogan">CONTRIBUTING TO THE DEVELOPMENT OF A <br /> GLOBAL INFORMATION SOCIETY<br />
@@ -118,7 +119,7 @@ foreach ($getRss->channel->item as $item) {
 				<a href="#0" id="js-mobile-nav_close" class="mobile-nav_close"></a>
 			</header>
 			<ul>
-				<li><a href="work/wordpress/index.php"><p>ACHIEVEMENT</p><span>制作実績</span></a></li>
+				<li><a href="/work/wordpress/"><p>ACHIEVEMENT</p><span>制作実績</span></a></li>
 				<li><a href="company.html"><p>COMPANY</p><span>会社情報</span></a></li>
 				<li><a href="services.html"><p>SERVICES</p><span>事業内容</span></a></li>
 				<li><a href="recruit.html"><p>RECRUITMENT</p><span>採用情報</span></a></li>
