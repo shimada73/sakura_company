@@ -61,8 +61,9 @@ $context = stream_context_create(array('http' => array('method' => 'POST', 'head
 $getTXT = file_get_contents($url, false, $context);
 $getRss = simplexml_load_string($getTXT);
  
+$i = 0;
+
 foreach ($getRss->channel->item as $item) {
-  $i == 0;
   $i++;
   if ($i == 2) break;//何件まで表示するか
   $date = date("Y年 n月 j日", strtotime($item->pubDate));//投稿日
